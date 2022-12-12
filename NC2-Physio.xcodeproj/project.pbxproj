@@ -10,6 +10,7 @@
 		3C05714829472EF40010E33E /* AddPatientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C05714729472EF40010E33E /* AddPatientView.swift */; };
 		3C05714A29473F810010E33E /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C05714929473F810010E33E /* TodayView.swift */; };
 		3C05714C294740230010E33E /* AppointmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C05714B294740230010E33E /* AppointmentsView.swift */; };
+		3C05714E29474C670010E33E /* EditPatientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C05714D29474C670010E33E /* EditPatientView.swift */; };
 		3CD5E7AF29409B6B00FDD820 /* NC2_PhysioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD5E7AE29409B6B00FDD820 /* NC2_PhysioApp.swift */; };
 		3CD5E7B429409B6B00FDD820 /* NC2_Physio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CD5E7B229409B6B00FDD820 /* NC2_Physio.xcdatamodeld */; };
 		3CD5E7B629409B6B00FDD820 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD5E7B529409B6B00FDD820 /* ContentView.swift */; };
@@ -24,6 +25,7 @@
 		3C05714729472EF40010E33E /* AddPatientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPatientView.swift; sourceTree = "<group>"; };
 		3C05714929473F810010E33E /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
 		3C05714B294740230010E33E /* AppointmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsView.swift; sourceTree = "<group>"; };
+		3C05714D29474C670010E33E /* EditPatientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPatientView.swift; sourceTree = "<group>"; };
 		3CD5E7AB29409B6B00FDD820 /* NC2-Physio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NC2-Physio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD5E7AE29409B6B00FDD820 /* NC2_PhysioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC2_PhysioApp.swift; sourceTree = "<group>"; };
 		3CD5E7B329409B6B00FDD820 /* NC2_Physio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NC2_Physio.xcdatamodel; sourceTree = "<group>"; };
@@ -72,7 +74,6 @@
 				3CD5E7AE29409B6B00FDD820 /* NC2_PhysioApp.swift */,
 				3CD5E7B729409B6C00FDD820 /* Assets.xcassets */,
 				3CD5E7B929409B6C00FDD820 /* NC2_Physio.entitlements */,
-				3CD5E7B229409B6B00FDD820 /* NC2_Physio.xcdatamodeld */,
 				3CD5E7BA29409B6C00FDD820 /* Preview Content */,
 			);
 			path = "NC2-Physio";
@@ -97,6 +98,7 @@
 		3CE1FE052947245800477645 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3CD5E7B229409B6B00FDD820 /* NC2_Physio.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -110,6 +112,7 @@
 				3C05714729472EF40010E33E /* AddPatientView.swift */,
 				3C05714929473F810010E33E /* TodayView.swift */,
 				3C05714B294740230010E33E /* AppointmentsView.swift */,
+				3C05714D29474C670010E33E /* EditPatientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				3CD5E7AF29409B6B00FDD820 /* NC2_PhysioApp.swift in Sources */,
 				3C05714829472EF40010E33E /* AddPatientView.swift in Sources */,
 				3CD5E7B429409B6B00FDD820 /* NC2_Physio.xcdatamodeld in Sources */,
+				3C05714E29474C670010E33E /* EditPatientView.swift in Sources */,
 				3CD5E7B629409B6B00FDD820 /* ContentView.swift in Sources */,
 				3C05714C294740230010E33E /* AppointmentsView.swift in Sources */,
 				3CE1FE082947259F00477645 /* CoreData-ViewModel.swift in Sources */,

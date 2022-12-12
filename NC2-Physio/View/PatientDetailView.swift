@@ -81,7 +81,7 @@ struct PatientDetailView: View {
                 Text("Edit")
             }
             .sheet(isPresented: $showingSheet) {
-                //AddPatientView(vm: vm)
+                EditPatientView()
             })
         }
     }

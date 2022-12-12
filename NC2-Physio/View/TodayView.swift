@@ -9,7 +9,14 @@ import SwiftUI
 
 struct TodayView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List {
+                Text("11:00 - 12:00\nViviana Pipola\nTECARTERAPIA")
+                Text("12:00 - 13:00\nAndrea Di Donato\nPRESSOTERAPIA")
+                Text("11:00 - 12:00\nRossella Bianco\nCRIOTERAPIA")
+            }
+            .navigationTitle("Today")
+        }
     }
 }
 
