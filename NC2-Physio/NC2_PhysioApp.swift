@@ -13,7 +13,7 @@ struct NC2_PhysioApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PatientsView()
                 //.environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
