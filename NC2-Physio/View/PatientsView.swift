@@ -2,7 +2,7 @@
 //  PatientsView.swift
 //  NC2-Physio
 //
-//  Created by Walter Galiano on 12/12/22.
+//  Created by Viviana Pipola on 12/12/22.
 //
 
 import SwiftUI
