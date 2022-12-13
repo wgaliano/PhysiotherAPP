@@ -19,6 +19,7 @@
 		3CE1FE082947259F00477645 /* CoreData-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE1FE072947259F00477645 /* CoreData-ViewModel.swift */; };
 		3CE1FE0A2947264C00477645 /* PatientDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE1FE092947264C00477645 /* PatientDetailView.swift */; };
 		3CE1FE0C294726F000477645 /* PatientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE1FE0B294726F000477645 /* PatientsView.swift */; };
+		442F55DC29488B020067CE32 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442F55DB29488B020067CE32 /* FirstView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		3CE1FE072947259F00477645 /* CoreData-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreData-ViewModel.swift"; sourceTree = "<group>"; };
 		3CE1FE092947264C00477645 /* PatientDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDetailView.swift; sourceTree = "<group>"; };
 		3CE1FE0B294726F000477645 /* PatientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsView.swift; sourceTree = "<group>"; };
+		442F55DB29488B020067CE32 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				3C05714929473F810010E33E /* TodayView.swift */,
 				3C05714B294740230010E33E /* AppointmentsView.swift */,
 				3C05714D29474C670010E33E /* EditPatientView.swift */,
+				442F55DB29488B020067CE32 /* FirstView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			files = (
 				3CE1FE0C294726F000477645 /* PatientsView.swift in Sources */,
 				3CD5E7AF29409B6B00FDD820 /* NC2_PhysioApp.swift in Sources */,
+				442F55DC29488B020067CE32 /* FirstView.swift in Sources */,
 				3C05714829472EF40010E33E /* AddPatientView.swift in Sources */,
 				3CD5E7B429409B6B00FDD820 /* NC2_Physio.xcdatamodeld in Sources */,
 				3C05714E29474C670010E33E /* EditPatientView.swift in Sources */,
