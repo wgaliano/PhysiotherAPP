@@ -13,7 +13,7 @@ struct PatientsView: View {
     @State private var searchText = ""
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack {
                 List {
 //                    ForEach(vm.patients.sorted(by: { patient1, patient2 in

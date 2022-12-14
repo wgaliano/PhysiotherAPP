@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TodayView: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
                 Text("11:00 - 12:00\nViviana Pipola\nTECARTERAPIA")
                 Text("12:00 - 13:00\nAndrea Di Donato\nPRESSOTERAPIA")

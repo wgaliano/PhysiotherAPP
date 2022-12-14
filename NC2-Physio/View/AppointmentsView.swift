@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AppointmentsView: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack {
                 Text("Work in progress...")
             }

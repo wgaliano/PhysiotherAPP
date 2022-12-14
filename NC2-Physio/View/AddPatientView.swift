@@ -29,7 +29,7 @@ struct AddPatientView: View {
     @State private var surgeriesEntered = ""
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             Form {
                 //name
                 Section(header: Text("Name")){
