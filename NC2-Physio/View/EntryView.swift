@@ -35,6 +35,7 @@ struct EntryView: View {
         } detail: {
             TodayView()
         }
+        
 #elseif os(tvOS)
         TabBarView()
 #endif
@@ -42,6 +43,7 @@ struct EntryView: View {
         
     }
 }
+
 
 
 struct EntryView_Previews: PreviewProvider {

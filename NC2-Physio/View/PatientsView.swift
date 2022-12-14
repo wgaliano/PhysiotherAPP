@@ -35,6 +35,7 @@ struct PatientsView: View {
                     }
                     .onDelete(perform: vm.deletePatient)
                 }
+                .listStyle(.plain)
                 .searchable(text: $searchText, prompt: "Search patient")
             }
             .navigationTitle("Patients")

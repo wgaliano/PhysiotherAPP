@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
 
     var body: some View {
-        NavigationView {
+//        NavigationView {
             TabView {
                 TodayView()
                     .tabItem {
@@ -25,7 +25,7 @@ struct ContentView: View {
                         Label("Appointments", systemImage: "list.bullet.clipboard")
                     }
             }
-        }
+//        }
     }
 }
 
