@@ -2,7 +2,7 @@
 //  TodayView.swift
 //  NC2-Physio
 //
-//  Created by Walter Galiano on 12/12/22.
+//  Created by Rossella Bianco on 12/12/22.
 //
 
 import SwiftUI
